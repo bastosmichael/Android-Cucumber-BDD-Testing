@@ -8,7 +8,7 @@ elif [ $1 == 'install' ]; then
 elif [ $1 == 'test' ]; then
         echo "Starting up the Android Emulator..."
         screen -dmS insert $ANDROID_HOME/tools/emulator -avd Nexus4
-        sleep 80
+        sleep 90
         $ANDROID_HOME/platform-tools/adb shell input keyevent 82
         telnet localhost 5554 < telnet.commands
         echo "Running Calabash Test..."
