@@ -1,4 +1,4 @@
 Feature: Starting Application
 
   Scenario: I can start my app
-    * I wait for "Hello world!" to appear
+    * I wait for "Hello World, AndroidDemoProject" to appear
