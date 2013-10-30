@@ -35,7 +35,7 @@ $ test.sh [options] test|start|stop|run|install
 ```
 #### Test
 ```
-$ ./test.sh test
+$ ./test.sh test [name & location of apk]
 
 This command will run the full Cucumber/Calabash test from starting the Emulator to finishing the tests and shutting the emulator down.
 ```
@@ -50,7 +50,7 @@ $ ./test.sh stop
 This command stops the emulator and shuts down any testing no matter what state it's in. 
 ```
 ```
-$ ./test.sh run
+$ ./test.sh run [name & location of apk]
 
 This command just runs the Cucumber tests, it's expected that the emulator has already been started and is simply waiting for tests to be ran. Great for debugging tests.
 ```
