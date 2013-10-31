@@ -79,8 +79,8 @@ To start the tests after emulator is up and running in the root of the resposito
 calabash-android run PatrolApp-debug.apk
 ```
 
-# Creating Cucumber Calabash Features
-============
+## Creating Cucumber Calabash Features
+
 Calabash Android comes with the following set of predefined steps.
 You can add your own steps or change the ones you see here.
 
